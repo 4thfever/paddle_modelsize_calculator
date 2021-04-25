@@ -16,6 +16,7 @@ https://github.com/jacobkimmel/pytorch_modelsize/blob/master/pytorch_modelsize.p
 # สนำร/Usage
 
 ```python
+from model_stat import summary
 infer_prog = ...
 summary(infer_prog, 16, 32)
 +-----+---------+----------------+----------------+---------+------------+
