@@ -32,3 +32,4 @@ GPU Memory Usage: 193644274688.0(193.64GB)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)# paddle_modelsize_calculator
+# paddle_modelsize_calculator
