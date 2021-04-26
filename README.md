@@ -13,12 +13,15 @@ https://github.com/PaddlePaddle/Paddle/blob/8ff3550658e9fea3e652ebc2a34f62e54a59
 
 https://github.com/jacobkimmel/pytorch_modelsize/blob/master/pytorch_modelsize.py
 
+照猫画虎开发，如果发现bug，烦请告知。
+Please give your precious advice if you find any incorrectness.
 # 使用/Usage
 
 ```python
 from model_stat import summary
 infer_prog = ...
-summary(infer_prog, 16, 32)
+summary(infer_prog, batch_size=16, bits_per_tensor=32)
+
 +-----+---------+----------------+----------------+---------+------------+
 | No. |    TYPE |          INPUT |         OUTPUT |  PARAMs |      FLOPs |
 +-----+---------+----------------+----------------+---------+------------+

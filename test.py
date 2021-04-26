@@ -43,4 +43,4 @@ if __name__ == '__main__':
     place = fluid.CPUPlace()
     exe = fluid.Executor(place)
 
-    summary(infer_prog, 16, 32)
+    summary(infer_prog, batch_size=16, bits_per_tensor=32)
